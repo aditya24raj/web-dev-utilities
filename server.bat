@@ -19,7 +19,7 @@ REM "python_http_server" is window title
 start /min "python_http_server" python -m http.server || pause && exit
 
 
-echo launching browser and waiting for browser to be closed..
+echo launching browser and waiting for browser to be closed.. 
 REM /W waits for browser to be closed
 start /W msedge --guest "http://localhost:8000"
 
